@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800')
+/*Base CSS*/
+.alignleft{
+    
+    float:left;
+    margin-right:15px;
+        
+}
+.alignright{
+    float:right;
+    margin-left:15px;
+}
+
+.aligncenter{
+    
+    display: block;
+    margin:0 auto 15px
+    
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:400;
+    color:#373737
+
+}
+
+body{
+	
+	font-family: 'Khula', sans-serif;
+	font-size:15px;
+	color:#999
+	
+}
+
+a:hover,a:focus{
+    
+    text-decoration:none
+    
+}
+
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu li {
+  position: relative;
+  display: inline-block;
+}
+.mainmenu li a {
+  display: inline;
+  color: #888;
+  padding: 12px 15px;
+}
+.boxed-btn,input[type=submit],input[type=button] {
+  display: inline-block;
+  background: #EF476F;
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 23px;
+  border-radius: 2px;
+}
+.hero-area {
+  font-weight: 300;
+  padding-top:150px 0;
+  border-bottom:1px solid #F6F6F6
+}
+.hero-area h1 {
+    font-size: 40px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding-top:25px
+}
+input[type=submit],input[type=button]{
+    padding:11px 25px;
+    font-weight: 400;
+}
+input[type=text],input[type=email],input[type=tel],input[type=password],input[type=url],text-area {
+  border: 1px solid #EFEFEF;
+  padding: 10px 15px;
+}
+website-checker-form {
+    margin-top: 30px;
+}
+.header-area {
+    padding: 20px 0;
+}
